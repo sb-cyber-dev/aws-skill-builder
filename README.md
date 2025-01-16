@@ -23,23 +23,17 @@ Key topics explored in these labs include (but are not limited to):
 - **Machine Learning**: Sagemaker
 - **Big Data**: Athena, Redshift, and EMR
 
-## Prerequisites ✅
-To follow along with the labs in this repository, you'll need:
-1. An active AWS account ([Create one here]()).
-2. Some familiarity with AWS terminology, though beginners can adapt easily.
-3. Basic understanding of cloud computing concepts and services.
-4. Optional: A local machine with AWS CLI and relevant SDKs installed.
 
 ## Lab Structure 🗂️
 Each lab in this repository will have its own dedicated section or directory, and the structure will typically look as follows:
 ``` 
 📂 AWS-Skill-Builder-Labs
- ├── Lab-01-Name/
+ ├── Lab-01_Name/
  │    ├── README.md        # Lab-specific instructions, objectives, and steps
  │    ├── screenshots/     # Screenshots of the lab process/results
  │    ├── code/            # Relevant scripts or configuration files used in the lab
  │    └── outputs/         # Any exported outputs or results
- ├── Lab-02-Name/
+ ├── Lab-02_Name/
  │    ├── ...
  └── README.md             # General repository documentation
 ```
@@ -54,30 +48,20 @@ Each lab folder will contain its own `README.md`, which will document:
 This will allow for detailed documentation and make each lab easy to navigate.
 ## Completed Labs 📝
 
-| **Lab Name** | **AWS Services Covered** | **Status** |
-| --- | --- | --- |
-| Lab 01: Setting Up EC2 | EC2, IAM, Security Groups | ✅ Completed |
-| Lab 02: S3 and Static Website Hosting | S3, Route 53 | 🟡 In Progress |
-| Lab 03: ... | ... | ⬜ Not Started |
+| **Lab Name**                          | **AWS Services Covered** | **Status** |
+|---------------------------------------|------------------------| --- |
+| Lab 01: AWS CLI Automation            | CLI, EC2               | 🟡 In Progress |
+| Lab 02: S3 and Static Website Hosting | S3, Route 53           | 🟡 In Progress |
+| Lab 03: ...                           | ...                    | ⬜ Not Started |
+|                                       |                          | ✅ Completed           |
 _The table will be updated as more labs are completed._
-## How to Use This Repository 🛠️
-1. For each lab, navigate to the corresponding folder.
-2. Read the lab’s details in its `README.md` file.
-3. Use the configurations, code, or commands included to practice on your end.
-4. Refer back to completed labs for quick refreshers when working on similar tasks.
-5. Contributions, suggestions, and feedback are always welcome — feel free to open an Issue or submit a Pull Request!
 
 ## Resources 📚
 Here are some useful resources for learning AWS:
-- [AWS Skill Builder]()
-- [AWS Documentation]()
-- [AWS Blog]()
-- Books:
-    - _AWS Certified Solutions Architect Study Guide_
-    - _Amazon Web Services in Action_
+- [AWS Skill Builder](https://skillbuilder.aws/)
+- [AWS Documentation](https://docs.aws.amazon.com/)
+- [AWS Blog](https://aws.amazon.com/blogs/)
 
-- Online Courses:
-    - [AWS Cloud Practitioner Essentials]()
 
 ## License 📄
 This project is licensed under the MIT License - see the `LICENSE` file for details. Feel free to use, modify, and share the content in this repository. However, please note that this repository follows AWS guidelines, and any material from AWS Skill Builder is linked or referenced, not duplicated verbatim.
